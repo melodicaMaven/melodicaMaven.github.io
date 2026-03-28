@@ -1,16 +1,43 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  {%- include head.html -%}
-
+  <head>
+	<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    {%- include head.html -%}
+  </head>
+  
   <body>
 
     {%- include header.html -%}
 
-    <main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    <main>
+	<div class="mainbody">
+		<div class="contacts-container">
+			<img src="images/allygatorfleep.png" alt="maven profile" class="mavenimage" />
+			<div class="contacts">
+				<h2>Maven Haven</h2>
+				<hr id="namehr">
+				<h3>Musings & Music, Mostly.</h3>
+				<hr id="titlehr">
+				<div id="contacts-icons">
+					<ul>
+						<li><i class="fa-brands fa-discord"></i></li>
+						<li><i class="fa-brands fa-youtube"></i></li>
+					</ul>
+				</div>
+				<div id="contacts-text">
+					<ul>
+						<li> firegatorthursday</li>
+						<li> <a href="https://www.youtube.com/@melodicamaven/featured">
+							YouTube</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="maincontent">
+			{{ content }}
+		</div>
+	</div>
     </main>
 
     {%- include footer.html -%}
