@@ -30,7 +30,7 @@ twitter_username: melodicaMaven
 github_username:  melodicaMaven
 
 # Build settings
-# theme: minima
+theme: minima
 plugins:
   - jekyll-feed
 

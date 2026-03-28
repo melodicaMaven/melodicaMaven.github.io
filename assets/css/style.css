@@ -12,7 +12,6 @@ body {
 	font-size: 10px;
 	font-family: "Titillium Web", sans-serif;
 	background-color: #180C2C;
-	background-image: url("https://media.discordapp.net/attachments/1176014185302339644/1176734372817281044/halfframesharpgoldc.png");
 	background-size: 1900px auto;
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -20,7 +19,7 @@ body {
 }
 .mainbody {
 	display: flex;
-	margin: 0 50px 0 50px;
+	margin: 150px 50px 0 50px;
 	padding: 5px;
 }
 #maincontent {
