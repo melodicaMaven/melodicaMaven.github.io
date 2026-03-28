@@ -1,0 +1,181 @@
+/*font-family: 'Titillium Web', sans-serif;
+font-family: 'Tilt Prism', cursive; */
+
+html,
+body {
+	height: 100%;
+	font-size: 10px;
+	font-family: "Titillium Web", sans-serif;
+	background-color: #180C2C;
+	background-image: url("https://media.discordapp.net/attachments/1176014185302339644/1176734372817281044/halfframesharpgoldc.png");
+	background-size: 1900px auto;
+	background-repeat: no-repeat;
+	background-position: top center;
+	background-position: fixed;
+}
+.mainbody {
+	display: flex;
+	margin: 0 50px 0 50px;
+	padding: 5px;
+}
+#maincontent {
+	display: inline-block;
+	width: 960px;
+	margin: 0 0 0 0;
+	background-color: #171717;
+	padding: 0 20px 20px 20px;
+	border: 5px inset #FFCC00;
+}
+h1 {
+	font-size: 60px;
+	font-family: "Tilt Prism", cursive;
+	letter-spacing: 30px;
+	text-align: center;
+	margin: ;
+	padding-top: 0;
+	padding-bottom: 0;
+	color: #FFE400;
+	text-shadow: 3px 3px 1px #302c00;
+}
+p,
+li {
+	font-size: 16px;
+	color: #FFE400;
+	line-height: 2;
+	letter-spacing: 1px;
+}
+h2 {
+	text-align: left;
+	font-size: 24px;
+	margin-top: 10px;
+	color: #FFE400;
+}
+h3 {
+	text-align: left;
+	font-size: 20px;
+	margin-top: 10px;
+	color: #FFE400;
+}
+.contacts-container {
+	position: relative;
+}
+.contacts {
+	display: inline-block;
+	margin: 0px 20px 0 20px;
+	border: 5px inset #FFCC00;
+	width: 300px;
+	height: auto;
+	color: #FFE400;
+	background-color: #241242;
+}
+.mavenimage {
+	position: absolute;
+	max-width: 150px;
+	max-height: 150px;
+	top: -150px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 10;   
+}
+.contacts ul {
+	list-style-type: none;
+}
+#contacts-icons {
+	text-align: left;
+	color: #FFE400;
+	float: left;
+}
+#contacts-text {
+	float: right;
+	margin-right: 95px;
+}
+#contacts-text ul {
+	padding: 0px;
+}
+#contacts-text li a:visited {
+	color: #FFE400;
+}
+#contacts-text li a {
+	color: #FFE400;
+}
+.contacts h2 {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 30px;
+	color: #FFE400;
+}
+.contacts h3 {
+	text-align: center;
+	font-size: 16px;
+	margin: 0;
+	margin-bottom: 5px;
+	color: #FFE400;
+}
+.credits {
+	display: inline-block;
+	margin: 200px 0 20px 20px;
+	border: 5px inset #FFCC00;
+	width: 300px;
+	height: 300px;
+	color: #FFE400;
+	background-color: #241242;
+}
+.credits h2 {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 30px;
+	color: #FFE400;
+}
+.credits h3 {
+	text-align: center;
+	font-size: 16px;
+	margin: 0;
+	margin-bottom: 5px;
+	color: #FFE400;
+}
+#namehr {
+	border: 2px solid #FFCC00;
+	width: 90%;
+}
+#titlehr {
+	border: 1px solid #FFCC00;
+	width: 90%;
+}
+#sitenav {
+	width: auto;
+	margin: auto;
+	background-color: #241242;
+	border: 5px inset #FFCC00;
+}
+#sitenav ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+  color: #FFE400;
+  margin: 0 40px 0 0;
+  overflow: hidden;
+  background-color: #241242;
+}
+#sitenav li {
+	display:block;
+	width: 130px;
+}
+
+#sitenav li a {
+  display: block;
+  border: 5px solid #241242;
+  color: #FFE400;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+#sitenav li a:hover {
+  border: 5px inset #241242;
+  background-color: #FFE400;
+  color: #241242;
+}
+
