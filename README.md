@@ -1,2 +1,2 @@
 # melodicaMaven.github.io
-Me website
+A personal site for journaling and cataloguing projects.
