@@ -3,16 +3,15 @@
   <div class="wrapper">
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
-
 	
     {%- if page_paths -%}
       <nav class="site-nav">
 		<div id="sitenav">
 		<ul>
 			<li><a href="index.html">Home</a></li>
-			<li><a href="about.html">About</a></li>
-			<li><a href="projects.html">Projects</a></li>
-			<li><a href="blog.html">Blog</a></li>
+			<li><a href="{{ '/about/' | relative_url }}">About</a></li>
+			<li><a href="{{ '/projects/' | relative_url }}">Projects</a></li>
+			<li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
 		</ul>
 		</div>
         <div class="trigger">
@@ -25,4 +24,7 @@
       </nav>
     {%- endif -%}
   </div>
+	<div id="titletext">
+    <h1>What's Cookin'?</h1>
+    </div>
 </header>
