@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "First"
+date:   2026-04-19 20:00:00 -0400
+categories: personal
+---
+Hello :) Making a new post to test things out.
