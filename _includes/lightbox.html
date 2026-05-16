@@ -1,0 +1,17 @@
+{% comment %}
+Usage:
+{% include lightbox.html
+   full="/assets/images/full.jpg"
+   thumb="/assets/images/thumb.jpg"
+   group="gallery"
+   caption="My caption"
+%}
+{% endcomment %}
+
+<a href="{{ include.full | relative_url }}"
+   data-lightbox="{{ include.group }}"
+   {% if include.caption %}data-title="{{ include.caption }}"{% endif %}>
+
+  <img src="{{ include.thumb | relative_url }}"
+       alt="{{ include.caption }}"
+       loading="lazy">

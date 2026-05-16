@@ -149,39 +149,79 @@ h3 {
 	border: 1px solid #FFCC00;
 	width: 90%;
 }
-#sitenav {
+.sitenav {
 	width: auto;
 	margin: auto;
 	background-color: #241242;
 	border: 5px inset #FFCC00;
-}
-#sitenav ul {
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
-  color: #FFE400;
-  margin: 0 40px 0 0;
-  overflow: hidden;
-  background-color: #241242;
-}
-#sitenav li {
-	display:block;
-	width: 130px;
+	display: flex;
+	justify-content: space-evenly;
+	color: #FFE400;
+	margin: 0 20px 0 20px;
+	overflow: hidden;
+	background-color: #241242;
 }
 
-#sitenav li a {
+.sitenav a {
   display: block;
+  width: auto;
   border: 5px solid #241242;
   color: #FFE400;
+  font-size: 16px;
   text-align: center;
   padding: 5px 5px;
   text-decoration: none;
 }
 
 /* Change the link color on hover */
-#sitenav li a:hover {
+.sitenav a:hover {
   border: 5px inset #241242;
   background-color: #FFE400;
   color: #241242;
 }
 
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+.dropdown .dropbtn {
+	border: 5px solid #241242;
+	color: #FFE400;
+	font-size: 16px;
+	text-align: center;
+	padding: 5px 5px;
+	text-decoration: none;
+	background-color: inherit;
+	font-family: inherit;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #241242;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.post-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.inline-imgs {
+	width: auto;
+	margin: auto;
+	padding: 20px 20px;
+	background-color: #241242;
+	border: 5px inset #FFCC00;
+	display: flex;
+	justify-content: space-evenly;
+	color: #FFE400;
+	margin: 0 0 0 0;
+	overflow: hidden;
+	background-color: #241242;
+}

@@ -5,14 +5,20 @@
     {%- assign page_paths = site.header_pages | default: default_paths -%}
 	
     {%- if page_paths -%}
-      <nav class="site-nav">
-		<div id="sitenav">
-		<ul>
-			<li><b><a href="{{ '/' | relative_url }}">Home</a></b></li>
-			<li><b><a href="{{ '/about/' | relative_url }}">About</a></b></li>
-			<li><b><a href="{{ '/projects/' | relative_url }}">Projects</a></b></li>
-			<li><b><a href="{{ '/blog/' | relative_url }}">Blog</a></b></li>
-		</ul>
+      <nav>
+		<div class="sitenav">
+			<b><a href="{{ '/' | relative_url }}">Home</a></b>
+			<b><a href="{{ '/about/' | relative_url }}">About</a></b>
+			<b><a href="{{ '/projects/' | relative_url }}">Projects</a></b>
+			<div class="dropdown">
+				<b><button class="dropbtn">Journal</b>
+					<i class="fa fa-caret-down"></i>
+				</button>
+			    <div class="dropdown-content">
+					<a href="{{ '/journal/' | relative_url }}">Posts</a>
+					<a href="{{ '/gallery/' | relative_url }}">Gallery</a>
+				</div>
+			</div>
 		</div>
         <div class="trigger">
           {%- for path in page_paths -%}
@@ -25,6 +31,6 @@
     {%- endif -%}
   </div>
 	<div id="titletext">
-    <h1>{{ page.title }}</h1>
+    <h1>{{ page.header | default: page.title }}</h1>
     </div>
 </header>

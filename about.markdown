@@ -30,9 +30,10 @@ The vast majority of my sound works can be found in Toontown: Corporate Clash, a
 I love all things scaley and feathered, so volunteering at an environmental center just made sense.
 The local center has some un-releasable raptors who serve as educational ambassadors to the public and they are a joy to work with.
 Apparently they don't get a lot of volunteers for the raptors since it involves handling dead mice and dirty work like cleaning out the mews.
-If you're reading this and you love birds, check and see if your local aviary could use some additional hands.</p>
+If you're reading this and you love birds, check and see if your local aviary could use some additional hands.
 <h3>Woodworking</h3>
-A new challenger in the lineup of hobbies: I've recently taken up woodworking. I have a lot to say about this as someone who got their start without a single tool in the toolbox.</p>
+A new challenger in the lineup of hobbies: I've recently taken up woodworking. I have a lot to say about this as someone who got their start without a single tool in the toolbox.
+
 <h2>Stuff I Do For Work</h2>
 <h3>Aviation</h3>
 I am currently studying to become a commercial pilot.
